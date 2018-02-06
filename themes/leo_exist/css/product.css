@@ -495,11 +495,20 @@ p {
   margin: 0 0 3px 3px;
 }
 #attributes .attribute_list #color_to_pick_list li a.color_pick {
-  display: block;
-  height: 22px;
-  width: 22px;
-  cursor: pointer;
+    display: block;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
+
+#attributes .attribute_list #size_to_pick_list li input.active {
+    background-color: orange;
+}
+
 #attributes .attribute_list #color_to_pick_list li.selected {
   border: 1px solid #0eba9e;
 }

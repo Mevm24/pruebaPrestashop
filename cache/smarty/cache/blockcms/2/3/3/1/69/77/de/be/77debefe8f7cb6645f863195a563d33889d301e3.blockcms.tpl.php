@@ -1,21 +1,42 @@
-<?php /*%%SmartyHeaderCode:184375a78b68a50e7f8-19610416%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:294365a79b040a99de3-07428485%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '77debefe8f7cb6645f863195a563d33889d301e3' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\modules\\blockcms\\blockcms.tpl',
-      1 => 1517859990,
+      1 => 1517862360,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '184375a78b68a50e7f8-19610416',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78c5bb37db11_33334536',
+  'nocache_hash' => '294365a79b040a99de3-07428485',
+  'variables' => 
+  array (
+    'block' => 0,
+    'cms_titles' => 0,
+    'cms_key' => 0,
+    'cms_title' => 0,
+    'cms_page' => 0,
+    'link' => 0,
+    'show_price_drop' => 0,
+    'PS_CATALOG_MODE' => 0,
+    'show_new_products' => 0,
+    'show_best_sales' => 0,
+    'display_stores_footer' => 0,
+    'show_contact' => 0,
+    'contact_url' => 0,
+    'cmslinks' => 0,
+    'cmslink' => 0,
+    'show_sitemap' => 0,
+    'display_poweredby' => 0,
+    'footer_text' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a79b040b7ef75_10539867',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78c5bb37db11_33334536')) {function content_5a78c5bb37db11_33334536($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a79b040b7ef75_10539867')) {function content_5a79b040b7ef75_10539867($_smarty_tpl) {?>
 	<!-- MODULE Block footer -->
 	<section class="block" id="block_various_links_footer">
 		<h4 class="title_block">Información</h4>

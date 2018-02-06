@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-05 14:51:36
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:18
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\info\paneltool.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:306425a78b5c802a936-55943083%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:168855a79b042144553-65043249%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5778d66893236f279ccaa07466b2522d52f0a5da' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\info\\paneltool.tpl',
-      1 => 1517859989,
+      1 => 1517862359,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '306425a78b5c802a936-55943083',
+  'nocache_hash' => '168855a79b042144553-65043249',
   'function' => 
   array (
   ),
@@ -43,9 +43,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78b5c815ad89_82890825',
+  'unifunc' => 'content_5a79b04225ee45_32825704',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78b5c815ad89_82890825')) {function content_5a78b5c815ad89_82890825($_smarty_tpl) {?><?php if (class_exists("LeoFrameworkHelper")) {?>
+<?php if ($_valid && !is_callable('content_5a79b04225ee45_32825704')) {function content_5a79b04225ee45_32825704($_smarty_tpl) {?><?php if (class_exists("LeoFrameworkHelper")) {?>
 <?php $_smarty_tpl->tpl_vars['skins'] = new Smarty_variable(LeoFrameworkHelper::getSkins($_smarty_tpl->tpl_vars['LEO_THEMENAME']->value), null, 0);?>
 <?php $_smarty_tpl->tpl_vars['directions'] = new Smarty_variable(LeoFrameworkHelper::getLayoutDirections($_smarty_tpl->tpl_vars['LEO_THEMENAME']->value), null, 0);?>
 <?php $_smarty_tpl->tpl_vars['theme_customizations'] = new Smarty_variable(LeoFrameworkHelper::getLayoutSettingByTheme($_smarty_tpl->tpl_vars['LEO_THEMENAME']->value), null, 0);?>
