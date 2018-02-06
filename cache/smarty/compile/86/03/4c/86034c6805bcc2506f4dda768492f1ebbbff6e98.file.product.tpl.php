@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-05 15:51:28
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 10:18:18
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:109935a78c3d05b12d3-92379351%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10355a79b040ee4967-53586139%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '86034c6805bcc2506f4dda768492f1ebbbff6e98' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\product.tpl',
-      1 => 1517862363,
+      1 => 1517930297,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '109935a78c3d05b12d3-92379351',
+  'nocache_hash' => '10355a79b040ee4967-53586139',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a79b041429ff9_95955959',
   'variables' => 
   array (
     'errors' => 0,
@@ -60,13 +62,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'HOOK_EXTRA_LEFT' => 0,
     'group' => 0,
     'id_attribute_group' => 0,
-    'groupName' => 0,
-    'id_attribute' => 0,
-    'group_attribute' => 0,
     'col_img_dir' => 0,
+    'id_attribute' => 0,
     'colors' => 0,
     'img_color_exists' => 0,
     'img_col_dir' => 0,
+    'group_attribute' => 0,
+    'groupName' => 0,
     'default_colorpicker' => 0,
     'USE_PTABS' => 0,
     'base_dir' => 0,
@@ -88,12 +90,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'tax_rate' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78c3d0b75632_04585574',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78c3d0b75632_04585574')) {function content_5a78c3d0b75632_04585574($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5a79b041429ff9_95955959')) {function content_5a79b041429ff9_95955959($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\modifier.date_format.php';
 if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\function.math.php';
 ?>
+
 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./errors.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php if (count($_smarty_tpl->tpl_vars['errors']->value)==0) {?>
@@ -540,24 +541,9 @@ $_smarty_tpl->tpl_vars['group']->_loop = true;
  :&nbsp;</label>
 											<?php $_smarty_tpl->tpl_vars["groupName"] = new Smarty_variable("group_".((string)$_smarty_tpl->tpl_vars['id_attribute_group']->value), null, 0);?>
 											<div class="attribute_list">
-												<?php if (($_smarty_tpl->tpl_vars['group']->value['group_type']=='select')) {?>
-													<select class="form-control attribute_select no-print" name="<?php echo $_smarty_tpl->tpl_vars['groupName']->value;?>
-" id="group_<?php echo intval($_smarty_tpl->tpl_vars['id_attribute_group']->value);?>
-">
-														<?php  $_smarty_tpl->tpl_vars['group_attribute'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['group_attribute']->_loop = false;
- $_smarty_tpl->tpl_vars['id_attribute'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['group']->value['attributes']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['group_attribute']->key => $_smarty_tpl->tpl_vars['group_attribute']->value) {
-$_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
- $_smarty_tpl->tpl_vars['id_attribute']->value = $_smarty_tpl->tpl_vars['group_attribute']->key;
-?>
-															<option value="<?php echo intval($_smarty_tpl->tpl_vars['id_attribute']->value);?>
-"<?php if ((isset($_GET[$_smarty_tpl->tpl_vars['groupName']->value])&&intval($_GET[$_smarty_tpl->tpl_vars['groupName']->value])==$_smarty_tpl->tpl_vars['id_attribute']->value)||$_smarty_tpl->tpl_vars['group']->value['default']==$_smarty_tpl->tpl_vars['id_attribute']->value) {?> selected="selected"<?php }?> title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['group_attribute']->value, ENT_QUOTES, 'UTF-8', true);?>
-"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['group_attribute']->value, ENT_QUOTES, 'UTF-8', true);?>
-</option>
-														<?php } ?>
-													</select>
-												<?php } elseif (($_smarty_tpl->tpl_vars['group']->value['group_type']=='color')) {?>
+												
+												<?php if (($_smarty_tpl->tpl_vars['group']->value['group_type']=='color'||$_smarty_tpl->tpl_vars['group']->value['group_type']=='select')) {?>
+													
 													<ul id="color_to_pick_list" class="clearfix">
 														<?php $_smarty_tpl->tpl_vars["default_colorpicker"] = new Smarty_variable('', null, 0);?>
 														<?php  $_smarty_tpl->tpl_vars['group_attribute'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['group_attribute']->_loop = false;
@@ -567,7 +553,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['group_attribute']->key => $_smarty_tp
 $_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
  $_smarty_tpl->tpl_vars['id_attribute']->value = $_smarty_tpl->tpl_vars['group_attribute']->key;
 ?>
-															<?php $_smarty_tpl->tpl_vars['img_color_exists'] = new Smarty_variable(file_exists((($_smarty_tpl->tpl_vars['col_img_dir']->value).($_smarty_tpl->tpl_vars['id_attribute']->value)).('.jpg')), null, 0);?>
+															<?php $_smarty_tpl->tpl_vars['img_color_exists'] = new Smarty_variable(file_exists((($_smarty_tpl->tpl_vars['col_img_dir']->value).($_smarty_tpl->tpl_vars['id_attribute']->value)).('.jpg')), null, 0);?>													
 															<li<?php if ($_smarty_tpl->tpl_vars['group']->value['default']==$_smarty_tpl->tpl_vars['id_attribute']->value) {?> class="selected"<?php }?>>
 																<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getProductLink($_smarty_tpl->tpl_vars['product']->value), ENT_QUOTES, 'UTF-8', true);?>
 " id="color_<?php echo intval($_smarty_tpl->tpl_vars['id_attribute']->value);?>
@@ -581,9 +567,13 @@ $_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
 .jpg" alt="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['colors']->value[$_smarty_tpl->tpl_vars['id_attribute']->value]['name'], ENT_QUOTES, 'UTF-8', true);?>
 " title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['colors']->value[$_smarty_tpl->tpl_vars['id_attribute']->value]['name'], ENT_QUOTES, 'UTF-8', true);?>
 " width="20" height="20" />
+																	<?php } elseif (($_smarty_tpl->tpl_vars['group']->value['group_type']=='select')) {?>
+																		<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['group_attribute']->value, ENT_QUOTES, 'UTF-8', true);?>
+
 																	<?php }?>
 																</a>
 															</li>
+															
 															<?php if (($_smarty_tpl->tpl_vars['group']->value['default']==$_smarty_tpl->tpl_vars['id_attribute']->value)) {?>
 																<?php $_smarty_tpl->tpl_vars['default_colorpicker'] = new Smarty_variable($_smarty_tpl->tpl_vars['id_attribute']->value, null, 0);?>
 															<?php }?>

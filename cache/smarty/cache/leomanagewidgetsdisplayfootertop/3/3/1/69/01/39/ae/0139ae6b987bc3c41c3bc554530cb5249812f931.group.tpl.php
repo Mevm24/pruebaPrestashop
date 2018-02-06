@@ -1,21 +1,21 @@
-<?php /*%%SmartyHeaderCode:300705a78b688d22e45-78798830%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:41385a79b03d7e5249-60692386%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0139ae6b987bc3c41c3bc554530cb5249812f931' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\modules\\leomanagewidgets\\\\views\\widgets\\group.tpl',
-      1 => 1517859997,
+      1 => 1517862357,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '300705a78b688d22e45-78798830',
+  'nocache_hash' => '41385a79b03d7e5249-60692386',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78c5b9bf2bb4_54642890',
+  'unifunc' => 'content_5a79b03e2ba8c6_34261960',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78c5b9bf2bb4_54642890')) {function content_5a78c5b9bf2bb4_54642890($_smarty_tpl) {?>           
+<?php if ($_valid && !is_callable('content_5a79b03e2ba8c6_34261960')) {function content_5a79b03e2ba8c6_34261960($_smarty_tpl) {?>           
         <div class="row" >
                                                                  <div class="widget col-lg-6 col-md-6 col-sm-6 col-xs-12 col-sp-12 hidden-xs hidden-sp" >
                                                             <div class="widget-html block">

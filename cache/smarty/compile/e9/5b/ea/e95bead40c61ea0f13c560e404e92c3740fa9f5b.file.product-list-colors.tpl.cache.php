@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-05 14:54:47
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:11
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\product-list-colors.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:168615a78b687478e09-44449993%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:247125a79b03bee1230-97187514%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e95bead40c61ea0f13c560e404e92c3740fa9f5b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\product-list-colors.tpl',
-      1 => 1517859995,
+      1 => 1517862363,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '168615a78b687478e09-44449993',
+  'nocache_hash' => '247125a79b03bee1230-97187514',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78b6874a3b09_03403705',
+  'unifunc' => 'content_5a79b03c0245d2_13277410',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78b6874a3b09_03403705')) {function content_5a78b6874a3b09_03403705($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a79b03c0245d2_13277410')) {function content_5a79b03c0245d2_13277410($_smarty_tpl) {?>
 
 <ul class="color_to_pick_list clearfix">
 	<?php  $_smarty_tpl->tpl_vars['color'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['color']->_loop = false;

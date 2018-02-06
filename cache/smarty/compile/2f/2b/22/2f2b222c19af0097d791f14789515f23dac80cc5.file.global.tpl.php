@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-05 14:51:35
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:18
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\global.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:178535a78b5c7eacde5-76946032%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:49085a79b0420f26c4-59391685%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2f2b222c19af0097d791f14789515f23dac80cc5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\global.tpl',
-      1 => 1517859988,
+      1 => 1517862359,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '178535a78b5c7eacde5-76946032',
+  'nocache_hash' => '49085a79b0420f26c4-59391685',
   'function' => 
   array (
   ),
@@ -34,9 +34,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78b5c7eea460_47932287',
+  'unifunc' => 'content_5a79b042126d03_36573785',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78b5c7eea460_47932287')) {function content_5a78b5c7eea460_47932287($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a79b042126d03_36573785')) {function content_5a79b042126d03_36573785($_smarty_tpl) {?>
 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0][0]->addJsDef(array('baseDir'=>$_smarty_tpl->tpl_vars['content_dir']->value),$_smarty_tpl);?>
 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0][0]->addJsDef(array('baseUri'=>$_smarty_tpl->tpl_vars['base_uri']->value),$_smarty_tpl);?>
 <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0][0]->addJsDef(array('static_token'=>$_smarty_tpl->tpl_vars['static_token']->value),$_smarty_tpl);?>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-05 14:54:46
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:11
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\modules\leobootstrapmenu\views\widgets\widget_products.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:201665a78b686b59f70-26158204%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:145015a79b03b7fe311-48830689%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'bd7e2b85eef453ce15a8b14ff13233669cd215d0' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\modules\\leobootstrapmenu\\views\\widgets\\widget_products.tpl',
-      1 => 1517859993,
+      1 => 1517862362,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '201665a78b686b59f70-26158204',
+  'nocache_hash' => '145015a79b03b7fe311-48830689',
   'function' => 
   array (
   ),
@@ -34,9 +34,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78b686c06656_05110285',
+  'unifunc' => 'content_5a79b03b8c34d4_08739244',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78b686c06656_05110285')) {function content_5a78b686c06656_05110285($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\function.math.php';
+<?php if ($_valid && !is_callable('content_5a79b03b8c34d4_08739244')) {function content_5a79b03b8c34d4_08739244($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\function.math.php';
 ?> <?php if (isset($_smarty_tpl->tpl_vars['products']->value)&&!empty($_smarty_tpl->tpl_vars['products']->value)) {?>
 <div class="widget-products">
 	<?php if (isset($_smarty_tpl->tpl_vars['widget_heading']->value)&&!empty($_smarty_tpl->tpl_vars['widget_heading']->value)) {?>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-05 14:52:38
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:59:07
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\modules\blocknewproducts\blocknewproducts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:238065a78b6060a9128-18586447%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:164565a79b4ab7b6017-52338027%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '565f3d6f8f236edf2c8b366a709f2599c9963015' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\modules\\blocknewproducts\\blocknewproducts.tpl',
-      1 => 1517859991,
+      1 => 1517862360,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '238065a78b6060a9128-18586447',
+  'nocache_hash' => '164565a79b4ab7b6017-52338027',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78b6060be850_81121219',
+  'unifunc' => 'content_5a79b4ab7f8f03_62000249',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78b6060be850_81121219')) {function content_5a78b6060be850_81121219($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a79b4ab7f8f03_62000249')) {function content_5a79b4ab7f8f03_62000249($_smarty_tpl) {?>
 <!-- MODULE Block new products -->
 <div id="new-products_block_right" class="block products_block">
 	<h4 class="title_block">

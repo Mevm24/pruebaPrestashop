@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-05 14:54:49
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 09:52:37
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\modules\leomanagewidgets\views\widgets\products.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:287455a78b689d0cc71-07594503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:195975a79c1353062c5-42892706%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6b48851a670cddf691d460df4fe14c764085e39d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\modules\\leomanagewidgets\\views\\widgets\\products.tpl',
-      1 => 1517859993,
+      1 => 1517862362,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '287455a78b689d0cc71-07594503',
+  'nocache_hash' => '195975a79c1353062c5-42892706',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78b689d48bc4_18893732',
+  'unifunc' => 'content_5a79c135351042_76054170',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78b689d48bc4_18893732')) {function content_5a78b689d48bc4_18893732($_smarty_tpl) {?><?php if (!empty($_smarty_tpl->tpl_vars['products']->value)) {?>
+<?php if ($_valid && !is_callable('content_5a79c135351042_76054170')) {function content_5a79c135351042_76054170($_smarty_tpl) {?><?php if (!empty($_smarty_tpl->tpl_vars['products']->value)) {?>
 <div class="carousel slide" id="<?php echo $_smarty_tpl->tpl_vars['tabname']->value;?>
 ">
 	<?php if (count($_smarty_tpl->tpl_vars['products']->value)>$_smarty_tpl->tpl_vars['itemsperpage']->value) {?>	 

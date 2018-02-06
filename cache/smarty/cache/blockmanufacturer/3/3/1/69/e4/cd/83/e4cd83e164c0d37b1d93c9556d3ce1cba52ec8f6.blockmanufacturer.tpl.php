@@ -1,21 +1,31 @@
-<?php /*%%SmartyHeaderCode:17085a78b606c309f7-20190684%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:174145a79b4abb30462-12597206%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e4cd83e164c0d37b1d93c9556d3ce1cba52ec8f6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\modules\\blockmanufacturer\\blockmanufacturer.tpl',
-      1 => 1517859990,
+      1 => 1517862360,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17085a78b606c309f7-20190684',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78c5babba260_11618126',
+  'nocache_hash' => '174145a79b4abb30462-12597206',
+  'variables' => 
+  array (
+    'display_link_manufacturer' => 0,
+    'link' => 0,
+    'manufacturers' => 0,
+    'text_list' => 0,
+    'text_list_nb' => 0,
+    'manufacturer' => 0,
+    'form_list' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a79b4abc02d78_04970531',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78c5babba260_11618126')) {function content_5a78c5babba260_11618126($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a79b4abc02d78_04970531')) {function content_5a79b4abc02d78_04970531($_smarty_tpl) {?>
 <!-- Block manufacturers module -->
 <div id="manufacturers_block_left" class="block blockmanufacturer noborder">
 	<h4 class="title_block">
@@ -32,7 +42,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						</a>
 					</li>
 												</ul>
-										<form action="/prestashop_pruebas/modules/paypal/express_checkout/payment.php" method="get">
+										<form action="/prestashop_pruebas/index.php" method="get">
 					
 						<select class="form-control" name="manufacturer_list">
 							<option value="0">Todas las marcas</option>

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-05 14:51:35
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:13
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\modules\blockleoblogs\blockleoblogs.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:174865a78b5c735bcc7-92522642%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:41265a79b03d4e7b87-78778050%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1ddb23a486e3423298a28e53f1b86aeedc0857d2' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\modules\\blockleoblogs\\blockleoblogs.tpl',
-      1 => 1517859990,
+      1 => 1517862360,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '174865a78b5c735bcc7-92522642',
+  'nocache_hash' => '41265a79b03d4e7b87-78778050',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78b5c7417bf4_97565014',
+  'unifunc' => 'content_5a79b03d5b2a02_70174492',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78b5c7417bf4_97565014')) {function content_5a78b5c7417bf4_97565014($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5a79b03d5b2a02_70174492')) {function content_5a79b03d5b2a02_70174492($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\modifier.date_format.php';
 ?>
 
 <!-- MODULE Block blockleoblogstabs -->

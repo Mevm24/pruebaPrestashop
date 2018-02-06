@@ -355,7 +355,7 @@ function findCombination(firstTime)
 	else
 		radio_inputs = '#attributes input[type=radio]:checked';
 
-	$('#attributes select, #attributes input[type=hidden], ' + radio_inputs).each(function(){
+	$('#attributes ul, #attributes input[type=hidden], ' + radio_inputs).each(function(){
 		choice.push(parseInt($(this).val()));
 	});
 
@@ -891,12 +891,12 @@ function colorPickerClick(elt)
 	id_attribute = $(elt).attr('id').replace('color_', '');
 	$(elt).parent().parent().children().removeClass('selected');
 	$(elt).fadeTo('fast', 1, function(){
-								$(this).fadeTo('fast', 0, function(){
-									$(this).fadeTo('fast', 1, function(){
-										$(this).parent().addClass('selected');
-										});
-									});
-								});
+		$(this).fadeTo('fast', 0, function(){
+			$(this).fadeTo('fast', 1, function(){
+				$(this).parent().addClass('selected');
+				});
+			});
+		});
 	$(elt).parent().parent().parent().children('.color_pick_hidden').val(id_attribute);
 	findCombination(false);
 }
