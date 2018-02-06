@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-05 14:54:48
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:13
          compiled from "C:\xampp\htdocs\prestashop_pruebas\modules\leomanagewidgets\\views\widgets\group.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:300705a78b688d22e45-78798830%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:41385a79b03d7e5249-60692386%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0139ae6b987bc3c41c3bc554530cb5249812f931' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\modules\\leomanagewidgets\\\\views\\widgets\\group.tpl',
-      1 => 1517859997,
+      1 => 1517862357,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '300705a78b688d22e45-78798830',
+  'nocache_hash' => '41385a79b03d7e5249-60692386',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a78b688d61497_93358534',
+  'unifunc' => 'content_5a79b03d887e11_44191710',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a78b688d61497_93358534')) {function content_5a78b688d61497_93358534($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['leoGroup']->value)&&$_smarty_tpl->tpl_vars['leoGroup']->value) {?>
+<?php if ($_valid && !is_callable('content_5a79b03d887e11_44191710')) {function content_5a79b03d887e11_44191710($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['leoGroup']->value)&&$_smarty_tpl->tpl_vars['leoGroup']->value) {?>
     <?php  $_smarty_tpl->tpl_vars['group'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['group']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['leoGroup']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['group']->key => $_smarty_tpl->tpl_vars['group']->value) {

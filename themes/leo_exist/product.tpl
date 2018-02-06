@@ -22,6 +22,7 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
+
 {include file="$tpl_dir./errors.tpl"}
 {if $errors|@count == 0}
 	{if !isset($priceDisplayPrecision)}
@@ -343,24 +344,23 @@
 											<label class="attribute_label" {if $group.group_type != 'color' && $group.group_type != 'radio'}for="group_{$id_attribute_group|intval}"{/if}>{$group.name|escape:'html':'UTF-8'} :&nbsp;</label>
 											{assign var="groupName" value="group_$id_attribute_group"}
 											<div class="attribute_list">
-												{if ($group.group_type == 'select')}
-													<select class="form-control attribute_select no-print" name="{$groupName}" id="group_{$id_attribute_group|intval}">
-														{foreach from=$group.attributes key=id_attribute item=group_attribute}
-															<option value="{$id_attribute|intval}"{if (isset($smarty.get.$groupName) && $smarty.get.$groupName|intval == $id_attribute) || $group.default == $id_attribute} selected="selected"{/if} title="{$group_attribute|escape:'html':'UTF-8'}">{$group_attribute|escape:'html':'UTF-8'}</option>
-														{/foreach}
-													</select>
-												{elseif ($group.group_type == 'color')}
+												
+												{if ($group.group_type == 'color' || $group.group_type == 'select' )}
+													
 													<ul id="color_to_pick_list" class="clearfix">
 														{assign var="default_colorpicker" value=""}
 														{foreach from=$group.attributes key=id_attribute item=group_attribute}
-															{assign var='img_color_exists' value=file_exists($col_img_dir|cat:$id_attribute|cat:'.jpg')}
+															{assign var='img_color_exists' value=file_exists($col_img_dir|cat:$id_attribute|cat:'.jpg')}													
 															<li{if $group.default == $id_attribute} class="selected"{/if}>
 																<a href="{$link->getProductLink($product)|escape:'html':'UTF-8'}" id="color_{$id_attribute|intval}" name="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" class="color_pick{if ($group.default == $id_attribute)} selected{/if}"{if !$img_color_exists && isset($colors.$id_attribute.value) && $colors.$id_attribute.value} style="background:{$colors.$id_attribute.value|escape:'html':'UTF-8'};"{/if} title="{$colors.$id_attribute.name|escape:'html':'UTF-8'}">
 																	{if $img_color_exists}
 																		<img src="{$img_col_dir}{$id_attribute|intval}.jpg" alt="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" title="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" width="20" height="20" />
+																	{elseif ($group.group_type == 'select' )}
+																		{$group_attribute|escape:'html':'UTF-8'}
 																	{/if}
 																</a>
 															</li>
+															
 															{if ($group.default == $id_attribute)}
 																{$default_colorpicker = $id_attribute}
 															{/if}
