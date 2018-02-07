@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:04:44
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 15:53:53
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\modules\leomanagewidgets\views\widgets\widget_manucarousel.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:85925a7b077c4d82b9-02241424%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:204675a7b67614fdfc0-22302852%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '85925a7b077c4d82b9-02241424',
+  'nocache_hash' => '204675a7b67614fdfc0-22302852',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b077c5723a9_09633073',
+  'unifunc' => 'content_5a7b6761569a14_36943058',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a7b077c5723a9_09633073')) {function content_5a7b077c5723a9_09633073($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['manufacturers']->value) {?>
+<?php if ($_valid && !is_callable('content_5a7b6761569a14_36943058')) {function content_5a7b6761569a14_36943058($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['manufacturers']->value) {?>
  <div class="widget-manufacture block">
 	<?php if (isset($_smarty_tpl->tpl_vars['widget_heading']->value)&&!empty($_smarty_tpl->tpl_vars['widget_heading']->value)) {?>
 	<h4 class="widget-heading title_block">

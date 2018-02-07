@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:191265a7b077bc16737-15414254%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:294255a7b676080d7d7-92612673%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '191265a7b077bc16737-15414254',
+  'nocache_hash' => '294255a7b676080d7d7-92612673',
   'variables' => 
   array (
     'sliderParams' => 0,
@@ -22,11 +22,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b077bd912f0_27490479',
+  'unifunc' => 'content_5a7b676096bd62_31409095',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a7b077bd912f0_27490479')) {function content_5a7b077bd912f0_27490479($_smarty_tpl) {?>    <div class="bannercontainer banner-fullwidth" style="padding: 0;margin: 0;background-color:#d9d9d9">
-        <div id="sliderlayer9217" class="rev_slider fullwidthbanner" style="width:100%;height:570px; " >
+<?php if ($_valid && !is_callable('content_5a7b676096bd62_31409095')) {function content_5a7b676096bd62_31409095($_smarty_tpl) {?>    <div class="bannercontainer banner-fullwidth" style="padding: 0;margin: 0;background-color:#d9d9d9">
+        <div id="sliderlayer8973" class="rev_slider fullwidthbanner" style="width:100%;height:570px; " >
             <ul>
                                 
                 <li data-link="http://www.prestashop.com"  data-masterspeed="300"  data-transition="random" data-slotamount="7" data-thumb="/prestashop_pruebas/themes/leo_exist/img/modules/leosliderlayer/slideshow.png">
@@ -223,7 +223,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                  if (tpj.fn.cssOriginal!=undefined)
                  tpj.fn.css = tpj.fn.cssOriginal;
 
-                 tpj("#sliderlayer9217").revolution(
+                 tpj("#sliderlayer8973").revolution(
                  {
                      delay:9000,
                  startheight:570,
@@ -255,7 +255,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                  shadow:0
                  });
                  $( document ).ready(function() {
-                    $('.caption',$('#sliderlayer9217')).click(function(){
+                    $('.caption',$('#sliderlayer8973')).click(function(){
                         if($(this).data('link') != undefined && $(this).data('link') != '') location.href = $(this).data('link');
                     });
                  });

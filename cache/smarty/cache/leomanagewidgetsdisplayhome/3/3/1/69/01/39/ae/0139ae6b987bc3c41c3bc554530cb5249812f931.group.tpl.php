@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:231775a7b077c592533-46743841%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:175845a7b676159fff5-57493161%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,40 +9,40 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '231775a7b077c592533-46743841',
+  'nocache_hash' => '175845a7b676159fff5-57493161',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b0c200bc6f8_76392454',
+  'unifunc' => 'content_5a7b676300be49_80877557',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a7b0c200bc6f8_76392454')) {function content_5a7b0c200bc6f8_76392454($_smarty_tpl) {?>           
+<?php if ($_valid && !is_callable('content_5a7b676300be49_80877557')) {function content_5a7b676300be49_80877557($_smarty_tpl) {?>           
         <div class="row" >
                                                                  <div class="widget col-lg-12 col-md-12 col-sm-12 col-xs-12 col-sp-12" >
                                                             
 
-<div id="advancetab8658" class="block products_block tab-product-home nopadding">
+<div id="advancetab29808" class="block products_block tab-product-home nopadding">
 		<h4 class="widget-heading title_block">
 		all product
 	</h4>
 			
 		<ul  class="nav nav-tabs">
-							<li><a href="#advancetab865812" data-toggle="tab">
+							<li><a href="#advancetab2980812" data-toggle="tab">
 											All
 						
 				</a></li>
-							<li><a href="#advancetab865813" data-toggle="tab">
+							<li><a href="#advancetab2980813" data-toggle="tab">
 											Featured
 						
 				</a></li>
-							<li><a href="#advancetab865811" data-toggle="tab">
+							<li><a href="#advancetab2980811" data-toggle="tab">
 											New
 						
 				</a></li>
-							<li><a href="#advancetab865814" data-toggle="tab">
+							<li><a href="#advancetab2980814" data-toggle="tab">
 											Special
 						
 				</a></li>
-							<li><a href="#advancetab865815" data-toggle="tab">
+							<li><a href="#advancetab2980815" data-toggle="tab">
 											Best Seller
 						
 				</a></li>
@@ -50,8 +50,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
 		<div class="block_content">	
 					<div id="product_tab_content"><div class="product_tab_content tab-content">
-									<div class="tab-pane" id="advancetab865812">
-										<div class="carousel slide" id="advancetab8658-12">
+									<div class="tab-pane" id="advancetab2980812">
+										<div class="carousel slide" id="advancetab29808-12">
 	
 	<div class="carousel-inner">
 							<div class="item active">
@@ -712,8 +712,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 
 	              </div>
-									<div class="tab-pane" id="advancetab865813">
-										<div class="carousel slide" id="advancetab8658-13">
+									<div class="tab-pane" id="advancetab2980813">
+										<div class="carousel slide" id="advancetab29808-13">
 	
 	<div class="carousel-inner">
 							<div class="item active">
@@ -1374,8 +1374,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 
 	              </div>
-									<div class="tab-pane" id="advancetab865811">
-										<div class="carousel slide" id="advancetab8658-11">
+									<div class="tab-pane" id="advancetab2980811">
+										<div class="carousel slide" id="advancetab29808-11">
 	
 	<div class="carousel-inner">
 							<div class="item active">
@@ -2036,8 +2036,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 
 	              </div>
-									<div class="tab-pane" id="advancetab865814">
-										<div class="carousel slide" id="advancetab8658-14">
+									<div class="tab-pane" id="advancetab2980814">
+										<div class="carousel slide" id="advancetab29808-14">
 	
 	<div class="carousel-inner">
 							<div class="item active">
@@ -2246,8 +2246,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 
 	              </div>
-									<div class="tab-pane" id="advancetab865815">
-										<div class="carousel slide" id="advancetab8658-15">
+									<div class="tab-pane" id="advancetab2980815">
+										<div class="carousel slide" id="advancetab29808-15">
 	
 	<div class="carousel-inner">
 							<div class="item active">
@@ -2828,15 +2828,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <script>
 $(document).ready(function() {
-    $('#advancetab8658 .carousel').each(function(){
+    $('#advancetab29808 .carousel').each(function(){
         $(this).carousel({
             pause: 'hover',
             interval: 8000
         });
     });
  
-	$("#advancetab8658 .nav-tabs li", this).first().addClass("active");
-	$("#advancetab8658 .tab-content .tab-pane", this).first().addClass("active");
+	$("#advancetab29808 .nav-tabs li", this).first().addClass("active");
+	$("#advancetab29808 .tab-content .tab-pane", this).first().addClass("active");
  
 });
 </script>

@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:258195a7b077b99bcd7-01011593%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:153705a7b67603faf96-56497500%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '258195a7b077b99bcd7-01011593',
+  'nocache_hash' => '153705a7b67603faf96-56497500',
   'variables' => 
   array (
     'boostrapmenu' => 0,
@@ -18,10 +18,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b077b9fafa0_56359152',
+  'unifunc' => 'content_5a7b6760476cb4_65002836',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a7b077b9fafa0_56359152')) {function content_5a7b077b9fafa0_56359152($_smarty_tpl) {?><nav id="cavas_menu"  class="sf-contener leo-megamenu">
+<?php if ($_valid && !is_callable('content_5a7b6760476cb4_65002836')) {function content_5a7b6760476cb4_65002836($_smarty_tpl) {?><nav id="cavas_menu"  class="sf-contener leo-megamenu">
     <div class="" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -39,7 +39,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		Block link
 	</div>
 		<div class="widget-inner">	
-		<div id="tabs10898" class="panel-group">
+		<div id="tabs15037" class="panel-group">
 			<ul class="nav-links">
 				  
 					<li ><a href="#link1" >Vivamus non nisl ut</a></li>
@@ -303,7 +303,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		Custom Link
 	</div>
 		<div class="widget-inner">	
-		<div id="tabs8844" class="panel-group">
+		<div id="tabs31071" class="panel-group">
 			<ul class="nav-links">
 				  
 					<li ><a href="#link1" >Proin ac sapien ut</a></li>
@@ -336,7 +336,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		Link Guide
 	</div>
 		<div class="widget-inner">	
-		<div id="tabs31210" class="panel-group">
+		<div id="tabs1141" class="panel-group">
 			<ul class="nav-links">
 				  
 					<li ><a href="http://www.leotheme.com/guides/prestashop16/leo-tempcp/" >Leo Template Control Panel</a></li>
