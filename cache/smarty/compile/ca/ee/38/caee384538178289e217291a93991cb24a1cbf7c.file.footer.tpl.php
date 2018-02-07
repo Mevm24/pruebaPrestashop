@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:04:47
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 10:41:12
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:91225a7b077f3c90e9-02723614%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'caee384538178289e217291a93991cb24a1cbf7c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\footer.tpl',
-      1 => 1517953559,
+      1 => 1518014964,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a7b077f4000b8_25421032',
   'variables' => 
   array (
     'content_only' => 0,
@@ -30,8 +32,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'LEO_PANELTOOL' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b077f4000b8_25421032',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a7b077f4000b8_25421032')) {function content_5a7b077f4000b8_25421032($_smarty_tpl) {?>
 <?php if (!isset($_smarty_tpl->tpl_vars['content_only']->value)||!$_smarty_tpl->tpl_vars['content_only']->value) {?>

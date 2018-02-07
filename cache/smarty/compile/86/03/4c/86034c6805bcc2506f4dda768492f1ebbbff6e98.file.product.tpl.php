@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:43:55
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 10:41:11
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\product.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:222525a7b077e9b5616-78051183%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '86034c6805bcc2506f4dda768492f1ebbbff6e98' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\product.tpl',
-      1 => 1518014631,
+      1 => 1518014964,
       2 => 'file',
     ),
   ),
