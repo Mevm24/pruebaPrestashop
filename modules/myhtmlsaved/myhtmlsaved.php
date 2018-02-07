@@ -64,7 +64,8 @@ class Myhtmlsaved extends Module
         return parent::install() &&
             $this->registerHook('header') &&
             $this->registerHook('backOfficeHeader') &&
-            $this->registerHook('displayFooterProduct');
+            $this->registerHook('displayFooterProduct') &&
+            $this->registerHook('displayFooterPruebaPrestashop');
     }
 
     public function uninstall()
@@ -193,6 +194,10 @@ class Myhtmlsaved extends Module
 
     public function hookDisplayFooterProduct()
     {
+        return Configuration::get('MYHTMLSAVED_TEXT');
+    }
+
+    public function hookDisplayFooterPruebaPrestashop(){
         return Configuration::get('MYHTMLSAVED_TEXT');
     }
 }

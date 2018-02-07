@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 10:53:25
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:06:53
          compiled from "C:\xampp\htdocs\prestashop_pruebas\modules\myhtmlsaved\views\templates\admin\configure.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:60285a79cf757b1b39-98370836%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:41785a7b07fdb22d73-47863926%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '60285a79cf757b1b39-98370836',
+  'nocache_hash' => '41785a7b07fdb22d73-47863926',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a79cf757e4255_72958864',
+  'unifunc' => 'content_5a7b07fdb71af1_39693617',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a79cf757e4255_72958864')) {function content_5a79cf757e4255_72958864($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a7b07fdb71af1_39693617')) {function content_5a7b07fdb71af1_39693617($_smarty_tpl) {?>
 
 <div class="panel">
 	<h3><i class="icon icon-credit-card"></i> <?php echo smartyTranslate(array('s'=>'myhtmlsaved','mod'=>'myhtmlsaved'),$_smarty_tpl);?>

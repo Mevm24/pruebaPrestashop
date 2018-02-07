@@ -390,6 +390,9 @@
 			{/if}
 		</div> <!-- end pb-right-column-->
 	</div> <!-- end primary_block -->
+	<div>{hook h='displayFooterPruebaPrestashop' mod='myhtmlsaved'}</div>
+	<p>Hola soy el footer prueba</p>
+
 	{if !$content_only}
             {if isset($USE_PTABS) && $USE_PTABS}
                 {include file="$tpl_dir./sub/product_info/tab.tpl"}

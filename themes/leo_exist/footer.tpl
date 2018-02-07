@@ -32,7 +32,7 @@
 			
 				<section id="bottom">
 					<div class="container container-nopadding">	
-							{$HOOK_BOTTOM}	
+							{$HOOK_BOTTOM}
 					</div>
 				</section>
 			{/if}
