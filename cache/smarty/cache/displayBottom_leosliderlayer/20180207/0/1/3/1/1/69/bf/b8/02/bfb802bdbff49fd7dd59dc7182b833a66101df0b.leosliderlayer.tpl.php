@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:191265a7b077bc16737-15414254%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:294255a7b676080d7d7-92612673%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,14 +9,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '191265a7b077bc16737-15414254',
+  'nocache_hash' => '294255a7b676080d7d7-92612673',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b077c0220e4_60422041',
+  'unifunc' => 'content_5a7b6760c2c285_43607103',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a7b077c0220e4_60422041')) {function content_5a7b077c0220e4_60422041($_smarty_tpl) {?>    <div class="bannercontainer banner-fullwidth hidden-sp hidden-xs" style="padding: 0;margin: 0;background-color:#d9d9d9">
-        <div id="sliderlayer12772" class="rev_slider fullwidthbanner" style="width:100%;height:380px; " >
+<?php if ($_valid && !is_callable('content_5a7b6760c2c285_43607103')) {function content_5a7b6760c2c285_43607103($_smarty_tpl) {?>    <div class="bannercontainer banner-fullwidth hidden-sp hidden-xs" style="padding: 0;margin: 0;background-color:#d9d9d9">
+        <div id="sliderlayer1594" class="rev_slider fullwidthbanner" style="width:100%;height:380px; " >
             <ul>
                                 
                 <li   data-masterspeed="300"  data-transition="random" data-slotamount="7" data-thumb="/prestashop_pruebas/themes/leo_exist/img/modules/leosliderlayer/2.jpg">
@@ -251,7 +251,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                  if (tpj.fn.cssOriginal!=undefined)
                  tpj.fn.css = tpj.fn.cssOriginal;
 
-                 tpj("#sliderlayer12772").revolution(
+                 tpj("#sliderlayer1594").revolution(
                  {
                      delay:9000,
                  startheight:380,
@@ -283,7 +283,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                  shadow:0
                  });
                  $( document ).ready(function() {
-                    $('.caption',$('#sliderlayer12772')).click(function(){
+                    $('.caption',$('#sliderlayer1594')).click(function(){
                         if($(this).data('link') != undefined && $(this).data('link') != '') location.href = $(this).data('link');
                     });
                  });

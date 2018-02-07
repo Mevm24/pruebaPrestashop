@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:04:47
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 15:53:56
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\info\paneltool.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:208415a7b077f486ef5-02184159%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:173635a7b6764228852-39301342%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '208415a7b077f486ef5-02184159',
+  'nocache_hash' => '173635a7b6764228852-39301342',
   'function' => 
   array (
   ),
@@ -43,9 +43,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b077f53f2d8_30973605',
+  'unifunc' => 'content_5a7b67643b2fb0_31636840',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a7b077f53f2d8_30973605')) {function content_5a7b077f53f2d8_30973605($_smarty_tpl) {?><?php if (class_exists("LeoFrameworkHelper")) {?>
+<?php if ($_valid && !is_callable('content_5a7b67643b2fb0_31636840')) {function content_5a7b67643b2fb0_31636840($_smarty_tpl) {?><?php if (class_exists("LeoFrameworkHelper")) {?>
 <?php $_smarty_tpl->tpl_vars['skins'] = new Smarty_variable(LeoFrameworkHelper::getSkins($_smarty_tpl->tpl_vars['LEO_THEMENAME']->value), null, 0);?>
 <?php $_smarty_tpl->tpl_vars['directions'] = new Smarty_variable(LeoFrameworkHelper::getLayoutDirections($_smarty_tpl->tpl_vars['LEO_THEMENAME']->value), null, 0);?>
 <?php $_smarty_tpl->tpl_vars['theme_customizations'] = new Smarty_variable(LeoFrameworkHelper::getLayoutSettingByTheme($_smarty_tpl->tpl_vars['LEO_THEMENAME']->value), null, 0);?>
