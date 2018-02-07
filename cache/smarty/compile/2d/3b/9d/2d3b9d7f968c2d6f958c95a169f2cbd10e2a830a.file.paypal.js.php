@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:04:44
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 10:41:10
          compiled from "C:\xampp\htdocs\prestashop_pruebas\modules\paypal\views\js\paypal.js" */ ?>
 <?php /*%%SmartyHeaderCode:57015a7b077cea3419-02989882%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2d3b9d7f968c2d6f958c95a169f2cbd10e2a830a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\modules\\paypal\\views\\js\\paypal.js',
-      1 => 1517865611,
+      1 => 1518014964,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5a7b077ceca589_74527345',
   'variables' => 
   array (
     'use_paypal_in_context' => 0,
@@ -28,8 +30,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'id_cart' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b077ceca589_74527345',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a7b077ceca589_74527345')) {function content_5a7b077ceca589_74527345($_smarty_tpl) {?>/*
 * 2007-2018 PrestaShop

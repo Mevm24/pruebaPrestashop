@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+  <Products>
+    <Reference>1101TEST</Reference>
+    <Valid_internet_product>1</Valid_internet_product>
+    <Products_name>Test product</Products_name>
+    <Price>49.99</Price>
+    <Active_product>1</Active_product>
+    <SupplierNo>8</SupplierNo>
+    <Weight>5</Weight>
+    <Description>My long product description</Description>
+    <Short_Description>Product desc.</Short_Description>
+    <MinOrderQty>1</MinOrderQty>
+    <Categories>
+      <Category>
+        <CategoryID>3</CategoryID>
+          <CategoryName>Home\Prod</CategoryName>
+          <Active_category>1</Active_category>
+          <Changed>0</Changed>
+      </Category>
+    </Categories>
+    <Tax_Class_ID>1</Tax_Class_ID>
+    <Discount>
+      <Discount_percentage>percentage</Discount_percentage>
+      <discountprice_ex_vat>0</discountprice_ex_vat>
+      <Discountprice_include_vat>0</Discountprice_include_vat>
+      <Pct_ReductionPercent>0</Pct_ReductionPercent>
+    </Discount>
+  </Products>
+</Document>
