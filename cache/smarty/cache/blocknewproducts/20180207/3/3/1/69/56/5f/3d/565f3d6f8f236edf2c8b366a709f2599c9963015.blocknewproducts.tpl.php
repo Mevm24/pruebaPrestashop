@@ -16,17 +16,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '79625a7b67bf2ee178-47174989',
-  'variables' => 
-  array (
-    'link' => 0,
-    'new_products' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b67bf432686_66854294',
+  'unifunc' => 'content_5a7b6ae5b580f8_46262993',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a7b67bf432686_66854294')) {function content_5a7b67bf432686_66854294($_smarty_tpl) {?><!-- MODULE Block new products -->
+<?php if ($_valid && !is_callable('content_5a7b6ae5b580f8_46262993')) {function content_5a7b6ae5b580f8_46262993($_smarty_tpl) {?><!-- MODULE Block new products -->
 <div id="new-products_block_right" class="block products_block">
 	<h4 class="title_block">
     	<a href="http://localhost/prestashop_pruebas/nuevos-productos" title="Novedades">Novedades</a>
@@ -38,13 +33,42 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="product-block">
 
             <div class="product-container media" itemscope itemtype="http://schema.org/Product">
-                 <a class="products-block-image img pull-left" href="http://localhost/prestashop_pruebas/vestidos-verano/7-vestido-estampado-gasa.html" title=""><img class="replace-2x img-responsive" src="http://localhost/prestashop_pruebas/20-small_default/vestido-estampado-gasa.jpg" alt="Vestido de gasa estampado" />
+                 <a class="products-block-image img pull-left" href="http://localhost/prestashop_pruebas/inicio/8-test-product.html" title=""><img class="replace-2x img-responsive" src="http://localhost/prestashop_pruebas/img/p/es-default-small_default.jpg" alt="Test product" />
                  </a>
 
                 <div class="media-body">
                       <div class="product-content">
                         <h5 class="name media-heading">
-                            <a class="product-name" href="http://localhost/prestashop_pruebas/vestidos-verano/7-vestido-estampado-gasa.html" title="Vestido de gasa estampado">
+                            <a class="product-name" href="http://localhost/prestashop_pruebas/inicio/8-test-product.html" title="Test product">
+            Test product</a>
+                        </h5>
+                        
+                        
+                                                 <div class="content_price price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                                                                                            <span itemprop="price" class="product-price">
+                                    59,49 $                                </span>
+                                <meta itemprop="priceCurrency" content="0" />
+                                                    </div>
+                                            
+                    </div>
+                </div>
+            </div>
+
+              
+            </div>    
+        </li>
+            <li class="clearfix media">
+            
+            <div class="product-block">
+
+            <div class="product-container media" itemscope itemtype="http://schema.org/Product">
+                 <a class="products-block-image img pull-left" href="http://localhost/prestashop_pruebas/categoria1/7-vestido-estampado-gasa.html" title=""><img class="replace-2x img-responsive" src="http://localhost/prestashop_pruebas/20-small_default/vestido-estampado-gasa.jpg" alt="Vestido de gasa estampado" />
+                 </a>
+
+                <div class="media-body">
+                      <div class="product-content">
+                        <h5 class="name media-heading">
+                            <a class="product-name" href="http://localhost/prestashop_pruebas/categoria1/7-vestido-estampado-gasa.html" title="Vestido de gasa estampado">
             Vestido de gasa estampado</a>
                         </h5>
                         
