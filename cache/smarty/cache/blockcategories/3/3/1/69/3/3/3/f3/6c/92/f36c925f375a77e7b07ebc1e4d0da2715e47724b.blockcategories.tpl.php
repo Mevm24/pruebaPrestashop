@@ -16,19 +16,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '189915a7b67be8481d9-66316436',
-  'variables' => 
-  array (
-    'blockCategTree' => 0,
-    'currentCategory' => 0,
-    'isDhtml' => 0,
-    'child' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a7b67be95ca09_22770416',
+  'unifunc' => 'content_5a7b6ae53b4908_82244835',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a7b67be95ca09_22770416')) {function content_5a7b67be95ca09_22770416($_smarty_tpl) {?><!-- Block categories module -->
+<?php if ($_valid && !is_callable('content_5a7b6ae53b4908_82244835')) {function content_5a7b6ae53b4908_82244835($_smarty_tpl) {?><!-- Block categories module -->
 <div id="categories_block_left" class="block block-highlighted nopadding">
 	<h4 class="title_block">
 					Mujer
