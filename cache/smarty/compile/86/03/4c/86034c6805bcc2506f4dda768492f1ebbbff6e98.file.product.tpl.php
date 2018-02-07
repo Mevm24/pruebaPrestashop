@@ -1,22 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 10:18:18
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:43:55
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10355a79b040ee4967-53586139%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:222525a7b077e9b5616-78051183%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '86034c6805bcc2506f4dda768492f1ebbbff6e98' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\product.tpl',
-      1 => 1517930297,
+      1 => 1518014631,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10355a79b040ee4967-53586139',
+  'nocache_hash' => '222525a7b077e9b5616-78051183',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a79b041429ff9_95955959',
+  'unifunc' => 'content_5a7b077ed84dc9_19886763',
   'variables' => 
   array (
     'errors' => 0,
@@ -91,7 +91,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a79b041429ff9_95955959')) {function content_5a79b041429ff9_95955959($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5a7b077ed84dc9_19886763')) {function content_5a7b077ed84dc9_19886763($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\modifier.date_format.php';
 if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\function.math.php';
 ?>
 
@@ -614,6 +614,10 @@ $_smarty_tpl->tpl_vars['group_attribute']->_loop = true;
 			<?php }?>
 		</div> <!-- end pb-right-column-->
 	</div> <!-- end primary_block -->
+	<div><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>'displayFooterPruebaPrestashop','mod'=>'myhtmlsaved'),$_smarty_tpl);?>
+</div>
+	<p>Hola soy el footer prueba</p>
+
 	<?php if (!$_smarty_tpl->tpl_vars['content_only']->value) {?>
             <?php if (isset($_smarty_tpl->tpl_vars['USE_PTABS']->value)&&$_smarty_tpl->tpl_vars['USE_PTABS']->value) {?>
                 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./sub/product_info/tab.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>

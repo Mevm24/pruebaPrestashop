@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:18
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:04:47
          compiled from "C:\xampp\htdocs\prestashop_pruebas\themes\leo_exist\footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:300785a79b042055ec3-68561663%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:91225a7b077f3c90e9-02723614%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'caee384538178289e217291a93991cb24a1cbf7c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\prestashop_pruebas\\themes\\leo_exist\\footer.tpl',
-      1 => 1517862359,
+      1 => 1517953559,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '300785a79b042055ec3-68561663',
+  'nocache_hash' => '91225a7b077f3c90e9-02723614',
   'function' => 
   array (
   ),
@@ -31,9 +31,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a79b0420b38c1_54265923',
+  'unifunc' => 'content_5a7b077f4000b8_25421032',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a79b0420b38c1_54265923')) {function content_5a79b0420b38c1_54265923($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a7b077f4000b8_25421032')) {function content_5a7b077f4000b8_25421032($_smarty_tpl) {?>
 <?php if (!isset($_smarty_tpl->tpl_vars['content_only']->value)||!$_smarty_tpl->tpl_vars['content_only']->value) {?>
 						<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./layout/".((string)$_smarty_tpl->tpl_vars['LEO_LAYOUT_DIRECTION']->value)."/footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
@@ -46,7 +46,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<section id="bottom">
 					<div class="container container-nopadding">	
 							<?php echo $_smarty_tpl->tpl_vars['HOOK_BOTTOM']->value;?>
-	
+
 					</div>
 				</section>
 			<?php }?>

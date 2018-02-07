@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:12
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:04:43
          compiled from "C:\xampp\htdocs\prestashop_pruebas\modules\leosliderlayer\leosliderlayer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:239715a79b03cd71877-27879112%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:191265a7b077bc16737-15414254%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '239715a79b03cd71877-27879112',
+  'nocache_hash' => '191265a7b077bc16737-15414254',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a79b03cec0f37_51892557',
+  'unifunc' => 'content_5a7b077bd3c7a7_38585317',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a79b03cec0f37_51892557')) {function content_5a79b03cec0f37_51892557($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5a7b077bd3c7a7_38585317')) {function content_5a7b077bd3c7a7_38585317($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\prestashop_pruebas\\tools\\smarty\\plugins\\modifier.replace.php';
 ?><?php if ($_smarty_tpl->tpl_vars['sliderParams']->value['slider_class']=="boxed") {?>
 <div class="layerslider-wrapper<?php if ($_smarty_tpl->tpl_vars['sliderParams']->value['group_class']) {?> <?php echo $_smarty_tpl->tpl_vars['sliderParams']->value['group_class'];?>
 <?php }?><?php if ($_smarty_tpl->tpl_vars['sliderParams']->value['md_width']) {?> col-md-<?php echo $_smarty_tpl->tpl_vars['sliderParams']->value['md_width'];?>

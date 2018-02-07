@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:41385a79b03d7e5249-60692386%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:231775a7b077c592533-46743841%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '41385a79b03d7e5249-60692386',
+  'nocache_hash' => '231775a7b077c592533-46743841',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a79b040d36945_08109793',
+  'unifunc' => 'content_5a7b077e92af49_66650824',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a79b040d36945_08109793')) {function content_5a79b040d36945_08109793($_smarty_tpl) {?>           
+<?php if ($_valid && !is_callable('content_5a7b077e92af49_66650824')) {function content_5a7b077e92af49_66650824($_smarty_tpl) {?>           
         <div class="row" >
                                                                  <div class="widget col-lg-2 col-md-2 col-sm-6 col-xs-6 col-sp-12" >
                                                             <div class="widget-links block">
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		empresa
 	</h4>
 		<div class="block_content">	
-		<div id="tabs15566" class="panel-group">
+		<div id="tabs14403" class="panel-group">
 			<ul class="nav-links">
 			    
 			  <li ><a href="#link1" >Privacy Policy</a></li>
@@ -111,7 +111,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		apoyo
 	</h4>
 		<div class="block_content">	
-		<div id="tabs28037" class="panel-group">
+		<div id="tabs9022" class="panel-group">
 			<ul class="nav-links">
 			    
 			  <li ><a href="#link1" >Validate License</a></li>

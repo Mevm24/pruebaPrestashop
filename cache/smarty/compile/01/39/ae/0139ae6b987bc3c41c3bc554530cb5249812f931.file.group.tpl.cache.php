@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:13
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:04:44
          compiled from "C:\xampp\htdocs\prestashop_pruebas\modules\leomanagewidgets\\views\widgets\group.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:41385a79b03d7e5249-60692386%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:231775a7b077c592533-46743841%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '41385a79b03d7e5249-60692386',
+  'nocache_hash' => '231775a7b077c592533-46743841',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a79b03d887e11_44191710',
+  'unifunc' => 'content_5a7b077c5dfe96_46161817',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a79b03d887e11_44191710')) {function content_5a79b03d887e11_44191710($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['leoGroup']->value)&&$_smarty_tpl->tpl_vars['leoGroup']->value) {?>
+<?php if ($_valid && !is_callable('content_5a7b077c5dfe96_46161817')) {function content_5a7b077c5dfe96_46161817($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['leoGroup']->value)&&$_smarty_tpl->tpl_vars['leoGroup']->value) {?>
     <?php  $_smarty_tpl->tpl_vars['group'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['group']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['leoGroup']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['group']->key => $_smarty_tpl->tpl_vars['group']->value) {

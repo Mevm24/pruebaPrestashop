@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-02-06 08:40:16
+<?php /* Smarty version Smarty-3.1.19, created on 2018-02-07 09:04:46
          compiled from "C:\xampp\htdocs\prestashop_pruebas\modules\leomanagewidgets\views\widgets\widget_twitter.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:224905a79b040c2cd25-13282949%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:55355a7b077e8a5143-14368711%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '224905a79b040c2cd25-13282949',
+  'nocache_hash' => '55355a7b077e8a5143-14368711',
   'function' => 
   array (
   ),
@@ -37,9 +37,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a79b040cf5f76_71951610',
+  'unifunc' => 'content_5a7b077e8f3d47_71670054',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a79b040cf5f76_71951610')) {function content_5a79b040cf5f76_71951610($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['username']->value)) {?>
+<?php if ($_valid && !is_callable('content_5a7b077e8f3d47_71670054')) {function content_5a7b077e8f3d47_71670054($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['username']->value)) {?>
 <div class="widget-twitter block">
 	<?php if (isset($_smarty_tpl->tpl_vars['widget_heading']->value)&&!empty($_smarty_tpl->tpl_vars['widget_heading']->value)) {?>
 	<h4 class="title_block">
